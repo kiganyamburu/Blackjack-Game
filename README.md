@@ -1,19 +1,47 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Blackjack Game 🃏
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Overview
+This is a simple browser-based Blackjack game implemented in JavaScript. Players can start a game, draw cards, and try to get as close to 21 as possible without going over.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
+- Random card generation
+- Player tracking with name and chip balance
+- Basic Blackjack game logic
+- Interactive gameplay with start and draw card functions
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## How to Play
+1. Open the game in a web browser
+2. Click "START GAME" to begin
+3. Your initial two cards will be dealt automatically
+4. Click "NEW CARD" to draw additional cards
+5. Try to get as close to 21 as possible without going over!
 
-Happy Coding!
+## Game Rules
+- Cards 2-10 are worth their face value
+- Face cards (Jack, Queen, King) are worth 10
+- Ace is worth 11
+- If your sum goes over 21, you lose
+- Getting exactly 21 is a Blackjack!
+
+## Technical Details
+- Built with vanilla JavaScript
+- Uses `Math.random()` for card generation
+- Dynamically updates game state and UI
+
+## Setup
+No installation required! Simply open the HTML file in a modern web browser.
+
+## Future Improvements
+- Add betting functionality
+- Implement dealer logic
+- Create win/lose tracking
+- Add more sophisticated card handling for Aces
+
+## Contributions
+Feel free to fork and improve the game. Pull requests are welcome!
+
+## License
+[Your License Here - e.g., MIT]
+
+## Author
+Peter (Developer)
